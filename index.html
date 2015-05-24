@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Dan Wros</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    
+
+  
+  <div class="TOC">
+    <h1>Table of Contents</h1>
+    <ol>
+      <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a>
+        <ul>
+          <li><a href="#lesson-1-1">How the Web Wide Works</a></li>
+          <li><a href="#lesson-1-2">HTML</a></li>
+          <li><a href="#lesson-1-3">Tags, Elements and Attributes</a></li>
+          <li><a href="#lesson-1-4">Technological Empathy</a></li>
+          <li><a href="#lesson-1-5">Inline vs Block Elements</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a>
+        <ul>
+          <li><a href="#lesson-2-1">Programming Laugages of Web Development</a></li>
+          <li><a href="#lesson-2-2">Document Object Model</a></li>
+          <li><a href="#lesson-2-3">Boxes</a></li>
+          <li><a href="#lesson-2-4">Text Editors for HTML</a></li>
+        </ul>
+      </li>
+      <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: Adding CSS Style to HTML Structure</a>
+        <ul>
+          <li><a href="#lesson-3-1">Avoiding Repetition</a></li>
+          <li><a href="#lesson-3-2">CSS</a></li>
+          <li><a href="#lesson-3-3">Code, Test, Refine</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <h1>Important Concepts for my Nanodegree</h1>
+
+  <div class="lesson">
+    <h2 id="lesson-1" >Lesson 1: The Basics of the Web and HTML</h2>
+  
+    <div class="concept">  
+      <div class="concept-title" id="lesson-1-1">
+        <b>How the World Wide Web Works</b>
+      </div>
+      <div class="concept-description">
+        <p> 
+          The web is a bunch of computers that communicate
+          with each other. When you open a browser and go 
+          to a web page like www.google.com or www.yahoo.com
+          , your  computer sends a <em>HTTP Request</em> across 
+          the internet to a <em>server</em>. The
+          server finds the appropriate HTML document and sends
+          it back to the your computer where your <em>web browser</em>
+          interprets the page and displays it on the user's screen.
+          <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">See this video</a>
+          for addition explaination.
+      </p>
+      </div>
+    </div>
+    
+    <div class="concept">
+      <div class="concept-title" id="lesson-1-2">
+        <b>HTML</b>
+      </div>
+      <div class="concept-description"> 
+      <p>
+        HTML stands for <em>Hypertext Markup Language.</em> HTML documents are the main type on the web. 
+        HTML documents contain <em>text content</em> which describes "what you see"
+        and <em>markup</em> which describes "how it looks".
+        <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340"> This
+        video</a> gives a good overview.
+      </p>
+      </div>  
+    </div>
+    
+    
+    <div class="concept">
+      <div class="concept-title" id="lesson-1-3">
+        <b>Tags, Elements and Attributes</b>
+      </div>
+      <div class="concept-description">
+      <p>
+        HTML documents are made of HTML <b>Elements</b>, <b>Tags</b>, and <b>Attributes</b>.  
+        <b>Elements</b> represents a structure 
+        and has a start tag, content, and end tag.  <b>Tags</b> are used at the beginning 
+        and end of HTML.  <b>Attributes</b> are used to define a property.    
+        <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">This video</a>
+        explains the distinction well.
+      </p>
+      </div>
+    </div>
+
+    <div class="concept">
+      <div class="concept-title" id="lesson-1-4">
+        <b>Technological Empathy</b>
+      </div>
+      <div class="concept-description">
+      <p>
+        Computers interpret instructions literally.  They cannot 
+        interpret the intent of the programmer.  This can cause huge problems
+        in the program and make a small mistake a huge problem.  
+      </p>
+      </div>
+    </div>
+
+    <div class="concept">
+      <div class="concept-title" id="lesson-1-5">  
+        <b>Inline vs Block Elements</b>
+      </div>
+      <div class="concept-description">
+      <p>
+        HTML elements are either <b>inline</b> or <b>block</b>. Block
+        elements applies only to the content inside of them.  While 
+        Inline applies to the entire section of code. <b>Example</b> 
+        Break is inline while Paragraph is block. 
+      </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="lesson">
+    <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+    
+    <div class="concept">
+      <div class="concept-title" id="lesson-2-1">
+        <b>Programming Laugages of Web Development</b>
+      </div>
+      <div class="concept-description">
+      <p>
+        There are three programming laugages of Web Develpment.  HTML, CSS, and JavaScript. 
+        HTML creates the structure of the webpage, while CSS (cascading style sheets) control the
+        style of the webpage and JavScript provides the interactive components of the page.  
+      </p>
+      </div>
+    </div>
+    
+    
+    <div class="concept">
+      <div class="concept-title" id="lesson-2-2">
+        <b>Document Object Model</b>
+      </div>
+      <div class="concept-description">
+      <p>
+        A DOM is how you draw out what you want the webpage to look like without 
+        having to write any code.  It's a great way to visual what you need to accomplish
+        and communicate to non-technical users.
+         The DOM is tree-like structure of HTML is from a Parent-Child relationship.
+         A Parent can have multiple children and the children can have multiple
+         children, etc. 
+      </p>
+      </div>
+    </div>
+    
+    <div class="concept">
+      <div class="concept-title" id="lesson-2-3">
+        <b>Boxes</b>
+      </div>
+      <div class="concept-description">
+      <p>
+        Everything on the webpage is a box.  There are boxes inside of boxes inside of boxes. 
+        The more boxes a part of the webpage is in the more nested it is in the code.
+      </p>
+      </div>
+    </div>
+
+    
+    <div class="concept">
+      <div class="concept-title" id="lesson-2-4">
+        <b>Text Editors for HTML</b>
+      </div>
+      <div class="concept-description">
+      <p>
+        There are three <b>Text Editors</b> that are recommended for the course.
+        <br><b>1) <em>Scratchpad</em></b>
+        <br><b>2) <em>CodePen</em></b>
+        <br><b>3) <em>Subline</em></b>
+        <br>Scratchpad is best for beginners and is the most user friendly, while Sublime is more powerful and less user friendly, while Codepen is in the middle of them.
+      </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="lesson">
+    <h2 id="lesson-3">Lesson 3: Adding CSS Style to HTML Structure </h2>
+    <div class="concept">
+      <div class="concept-title" id="lesson-3-1">  
+        <b>Avoiding Repetition</b>
+      </div>
+      <div class="concept-description">
+        <p>
+        Avoiding repetition allows for a number of benefits and will help you program better.
+        </p>
+        <p>
+          Helps you avoid errors.  When you have to repeat code and you run a good chance of either missing 
+          a place you need to put it or typing the code wrong.  Also if you need to make a minor change you will need
+          to go to multiple spots to make the changes and that can be very time consuming.
+          </p>
+        <p>
+          By not repeating code it is easier to give all your webpages and websites the same look and feel and 
+          allow for the same consistency across the organization.  If you repeat a lot of code it will be a lot 
+          harder to generate the same consistency.
+        </p>  
+      </div>
+    </div>
+    
+    <div class="concept">
+      <div class="concept-title"  id="lesson-3-2">
+        <b>CSS</b>
+      </div>
+      <div class="concept-description">
+      <p>
+        CSS stands for Cascading Style Sheets and it allows you to adjust the stype of HTML elements.  By specifing
+        which HTML elements are similar and puting in the same class you can give them a specific style.
+      </p>
+      </div>
+    </div>
+    
+    <div class="concept">
+      <div class="concept-title"  id="lesson-3-3">
+        <b>Code, Test, Refine</b>
+      </div>
+      <div class="concept-description">
+      <p>
+        The 5 steps to programming a webpage are as follows:
+        <br><br><b>1) <em>Look for natural boxes</em></b>
+        <br><b>2) <em>Look for repeated styles and elements</em></b>
+        <br><b>3) <em>Write your HTML</em></b>
+        <br><b>4) <em>Apply styles (From BIGGEST to smallest)</em></b>
+        <br><b>5) <em>Fix things</em></b>
+      </p>
+      </div>
+    </div>
+
+    
+  </div>
+    
+    
+    
+    
+    
+  </body>
+</html>

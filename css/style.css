@@ -1,0 +1,60 @@
+body {
+	padding: 20px 10px;
+	font-family: Helvetica;
+	max-width: 2000px;
+	margin: 0 auto; /* The 0 refers to the top and bottom margins and the "auto" automatically */
+	font-size: 1.4em;
+}                 /* sets the left and right margins to equal values. This centers the body on the page.*/
+
+h1 {
+	text-align: center;
+	color: black;
+}
+
+p {
+	margin: 12px 0;
+}
+ul {
+	list-style-type: none; 
+}
+
+li {
+	font-size: 18px;
+	line-height: 44px; 
+
+}
+
+.lesson {
+	background-color: #526F35;
+	border-radius: 18px;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
+
+h2 {
+	margin: 10px;
+}
+
+.concept {
+	background-color: #C0D9AF;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.concept-title {
+	font-size: 28px;
+	margin: 8px;
+	text-align: center;
+	color: #397D02;
+}
+
+.concept-description {
+	font-weight: lighter;
+	margin: 6px;
+}
+
+
+
